@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 Gem::Specification.new do |spec|
   spec.name         = 'talk_like_a_pirate'
   spec.version      = '0.2.2'
@@ -11,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.files        = `git ls-files`.split("\n")
   spec.test_files   = `git ls-files -- {spec}/*`.split("\n")
 
-  spec.add_dependency 'activesupport', '>= 3.0.0', '< 6.0.1'
+  spec.add_dependency 'activesupport', '>= 7.0.2.3'
   spec.add_dependency 'i18n'
 
   spec.add_development_dependency 'appraisal', '~> 2.2'
